@@ -1,8 +1,6 @@
 /* tslint:disable:no-unused-variable */
 import { AppComponent } from './app.component';
-
 import { async, inject } from '@angular/core/testing';
-
 import { TestComponentBuilder } from '@angular/core/testing';
 
 import { By }             from '@angular/platform-browser';
