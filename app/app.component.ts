@@ -9,4 +9,5 @@ import { GithubService } from './services/github.service';
     directives:[ ProfileComponent ],
     providers: [ GithubService, HTTP_PROVIDERS ]
 })
-export class AppComponent { }
+
+export class AppComponent {}
