@@ -10,8 +10,16 @@ export class GithubService {
     this.username = 'profoundhub';
   }
 
+  // Get User's Profile Info
   getUser() {
     return this._http.get('https://api.github.com/users/'+this.username)
       .map(res => res.json());
   }
+
+  // Get User's Repos
+  getRepos(){
+    return this._http.get('https://api.github.com/users/'+this.username+'/repos')
+      .map(res => res.json());
+  }
+
 }
