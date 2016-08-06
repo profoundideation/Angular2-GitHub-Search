@@ -18,9 +18,22 @@
     "typings": "typings",
     "webdriver:update": "webdriver-manager update"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "Angular2",
+    "Angular 2",
+    "node",
+    "ng2",
+    "Daniel Lim",
+    "GitHub",
+    "Web App",
+    "Web Apps"
+  ],
+  "author": "Daniel Lim",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/profoundideation/Angular2-GitHub-Search/issues"
+  },
+  "homepage": "https://github.com/profoundideation/Angular2-GitHub-Search",
   "dependencies": {
     "@angular/common":  "2.0.0-rc.4",
     "@angular/compiler":  "2.0.0-rc.4",
@@ -58,5 +71,8 @@
     "protractor": "^3.3.0",
     "rimraf": "^2.5.2"
   },
-  "repository": {}
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/profoundideation/Angular2-GitHub-Search/"
+  }
 }
