@@ -4,10 +4,10 @@ import 'rxjs/add/operator/map';
 
 @Injectable()
 export class GithubService {
-  private username?: string; // GitHub UserName
+  private username?: any; // GitHub UserName
 
   constructor(private _http:Http) {
-    this.username = 'profoundhub';
+    // this.username = 'profoundhub';
   }
 
   // Get User's Profile Info
@@ -22,4 +22,8 @@ export class GithubService {
       .map(res => res.json());
   }
 
+  // Update Username
+  updateUser(username){
+    this.username = username;
+  }
 }
