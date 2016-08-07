@@ -3,7 +3,7 @@ import { Http, Headers } from '@angular/http';
 import 'rxjs/add/operator/map';
 
 @Injectable()
-export class GithubService {
+export class GitHubService {
   private username?: any; // GitHub UserName
 
   constructor(private _http:Http) {
@@ -23,7 +23,7 @@ export class GithubService {
   }
 
   // Update Username
-  updateUser(username){
+  updateUser(username: any){
     this.username = username;
   }
 }
