@@ -10,6 +10,7 @@ import 'rxjs/add/operator/map';
 export class ProfileComponent {
   user?: any[] = [];
   repos?: any[] = [];
+  
   constructor(private _githubService:GithubService){
     this._githubService.getUser().subscribe(user => {
       this.user = user;
