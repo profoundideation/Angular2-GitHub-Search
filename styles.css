@@ -140,3 +140,28 @@ nav a.router-link-active {
 * {
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.mainSearch {
+  max-width: 1000px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  clear: both;
+  display: block;
+  overflow: hidden;
+  height: 92px;
+  color: #5a5a5a;
+  font-size: xx-large;
+  border: 5px solid #000!important;
+  outline-style: none!important;
+}
+
+.footer {
+  position: relative;
+  /* margin-top: -150px; negative value of footer height */
+  
+  height: 150px;
+  clear:both;
+  padding-top:20px;
+}

@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { Http, Headers } from '@angular/http';
-import { GithubService } from '../services/github.service';
+import { GitHubService } from '../services/github.service';
 import 'rxjs/add/operator/map';
 
 @Component({
@@ -13,12 +13,12 @@ export class ProfileComponent {
   repos?: any[] = [];
   username?: any[];
 
-  constructor(private _githubService:GithubService){
+  constructor(private _githubService:GitHubService){
     this.user = false;
   }
 
   searchUser(){
-    // Update Username
+    // Update UserName(s)
     this._githubService.updateUser(this.username);
 
     this._githubService.getUser().subscribe(user => {
