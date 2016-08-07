@@ -17,4 +17,4 @@ trim_trailing_whitespace = false
 # Indentation override
 #[lib/**.js]
 #[{package.json,.travis.yml}]
-#[**/**.js]
+[**/**.js]
