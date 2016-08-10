@@ -17,7 +17,7 @@ export class ProfileComponent {
     this.user = false;
   }
 
-  searchUser(){
+  searchUser() {
     // Update UserName(s)
     this._githubService.updateUser(this.username);
 
