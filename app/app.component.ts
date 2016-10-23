@@ -5,7 +5,6 @@ import { GitHubService } from './services/github.service';
 
 @Component({
     selector: 'my-app',
-    templateUrl: 'app/app.component.html',
     directives:[ ProfileComponent ],
     providers: [ GitHubService, HTTP_PROVIDERS ]
 })
